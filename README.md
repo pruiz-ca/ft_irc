@@ -1,5 +1,11 @@
 # 💬 ft_irc
-Our own IRC Server
+Our own IRC Server written in C++. Tested with LimeChat and Textual
+
+## Features
+
+
+## How to use
+
 
 ## Useful resources
 http://beej.us/guide/bgnet/html/

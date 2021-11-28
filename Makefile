@@ -52,9 +52,5 @@ fclean:			clean
 
 re:				fclean all
 
-irc:			all
-				@./ircserv 6667 bu
-
 debug:			DEBUG += -g3 -fsanitize=address -D DEBUG=1
 debug:			irc
-

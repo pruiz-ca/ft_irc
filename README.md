@@ -1,16 +1,37 @@
 # 💬 ft_irc
-Our own IRC Server written in C++. Tested with LimeChat and Textual
+Our own IRC Server written in C++ without forks using poll. Tested with LimeChat and Textual.
+
+Made by: [🐨 mmunoz-f ](https://github.com/mmunoz-f) [🦔 rorozco-](https://github.com/larroky)  [🦞 pruiz-ca](https://github.com/pruiz-ca)
 
 ## Features
-
+- RFC Compliant
+- Compatible with comercial clients
+- Server password
+- Nick and Username registration
+- Ping Pong
+- Channels
+- Modes (user, channels and operator)
+- Kick, Kill and Ban
+- Messages / notice
+- List, names, whois, who
 
 ## How to use
+1. Clone this repo
+2. Run ```make``` or ```make debug``` to print what the server receives and send to stdout
+3. Run ```ircserv <port> <server_password>```
+4. Connect with a client to the IP and Port printed by the server.
+5. With the client, send:
 
+		PASS <server_password>
+		USER <username> 0 * :<Real Name>
+		NICK <nickname>
 
-## Useful resources
-http://beej.us/guide/bgnet/html/
+6. By now you should have access to the server and can create channels or communicate with other users
 
-https://modern.ircdocs.horse/
+## Resources
+http://beej.us/guide/bgnet/html/ ⭐️
+
+https://modern.ircdocs.horse/ ⭐️
 
 https://www.rfc-editor.org/rfc/rfc2812
 

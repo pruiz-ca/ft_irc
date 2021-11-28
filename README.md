@@ -16,17 +16,17 @@ Made by: [🐨 mmunoz-f ](https://github.com/mmunoz-f) [🦔 rorozco-](https://g
 - List, names, whois, who
 
 ## How to use
-1. Clone this repo
-2. Run ```make``` or ```make debug``` to print what the server receives and send to stdout
+1. Clone this repo.
+2. Run ```make``` or ```make debug``` to print what the server receives and sends to stdout.
 3. Run ```ircserv <port> <server_password>```
-4. Connect with a client to the IP and Port printed by the server.
-5. With the client, send:
+4. Using the client you like the most, connect to the IP and Port printed by the server.
+5. Send the following commands to gain access to the server:
 
 		PASS <server_password>
 		USER <username> 0 * :<Real Name>
 		NICK <nickname>
 
-6. By now you should have access to the server and can create channels or communicate with other users
+6. By now you should have access and are able to create channels or communicate with other users.
 
 ## Resources
 http://beej.us/guide/bgnet/html/ ⭐️

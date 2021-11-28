@@ -1,7 +1,7 @@
 # 💬 ft_irc
 Our own IRC Server written in C++ using select/poll. Tested with LimeChat and Textual.
 
-Made by: [🐨 mmunoz-f ](https://github.com/mmunoz-f) [🦔 rorozco-](https://github.com/larroky)  [🦞 pruiz-ca](https://github.com/pruiz-ca)
+> Made by: [🐨 mmunoz-f ](https://github.com/mmunoz-f) [🦔 rorozco-](https://github.com/larroky)  [🦞 pruiz-ca](https://github.com/pruiz-ca)
 
 ## Features
 - RFC Compliant
